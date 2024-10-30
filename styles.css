@@ -1,0 +1,174 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    background-color: #485161;
+    color: #333;
+    line-height: 1.0;
+    user-select: none;
+}
+
+
+
+header {
+    background-color: #5694ba;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 15px;
+    cursor: default;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.Menu{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dftr {
+    display: none;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+}
+
+.gambar-header {
+    width: 90px;
+    height: auto;
+    border-radius: 25%;
+    float: left;
+    margin-left: -20px;
+}
+
+.gambar-header2{
+    width: 80px;
+    height: auto;
+    border-radius: 25%;
+    float: right;
+    margin-left: 40px;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Tambah shadow */
+    border-radius: 15px; /* Radius border tabel */
+    overflow: hidden; /* Mengatasi masalah radius pada tabel */
+    cursor: default;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #5694ba;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
+
+table td {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Animasi untuk hover */
+}
+
+table tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Garis berselang untuk background */
+}
+
+table tr:hover td {
+    background-color: #f1f1f1; /* Efek hover pada baris tabel */
+}
+
+.gambar-menu {
+    width: 80px;
+    height: auto;
+    border-radius: 15px; /* Radius gambar di dalam tabel */
+}
+
+footer {
+    background-color: #5694ba;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: px;
+}
+
+
+button a{
+    color: black;
+    text-decoration:  none;
+}
+
+.button-33 {
+  border-radius: 100px;
+  box-shadow:#5694ba 0 16px 42px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.button-33:hover {
+  box-shadow:#5694ba 0 16px 42px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+span {
+    background-color: #3b82f6; /* Biru */
+    color: #ffffff; /* Putih */
+    padding-left: 0.5rem; /* Padding horizontal */
+    padding-right: 0.5rem;
+    padding-top: 0.25rem; /* Padding vertikal */
+    padding-bottom: 0.25rem;
+    border-radius: 25px; /* Sudut bulat */
+    margin-top: 0.5rem; /* Margin atas */
+    display: inline-block; /* Inline block */
+    font-size: 10%;
+}
